@@ -1,4 +1,4 @@
-if SHIELD_ERGODONE_LEFT
+if SHIELD_MY_BOARD_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "Ergodone"
@@ -8,14 +8,7 @@ config ZMK_SPLIT_ROLE_CENTRAL
 
 endif
 
-if SHIELD_ERGODONE_RIGHT
-
-config ZMK_KEYBOARD_NAME
-    default "Ergodone Right"
-
-endif
-
-if SHIELD_ERGODONE_LEFT || SHIELD_ERGODONE_RIGHT
+if SHIELD_MY_BOARD_LEFT || SHIELD_MY_BOARD_RIGHT
 
 config ZMK_SPLIT
     default y
