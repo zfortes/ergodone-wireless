@@ -1,8 +1,0 @@
-file_format: '1'
-id: ergodone
-name: ergodone
-type: shield
-url: https://google.com
-requires: [pro_micro]
-features:
-  - keys
