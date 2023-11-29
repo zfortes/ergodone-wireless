@@ -1,5 +1,9 @@
 #include "ergodone.dtsi"
 
+&default_transform {
+	col-offset = <1>;
+};
+
 &kscan0: kscan {
     compatible = "zmk,kscan-gpio-matrix";
     label = "KSCAN";
