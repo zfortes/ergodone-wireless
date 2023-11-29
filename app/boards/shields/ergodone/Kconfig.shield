@@ -1,0 +1,8 @@
+config SHIELD_ERGODONE
+    def_bool $(shields_list_contains,ergodone)
+
+config SHIELD_ERGODONE_LEFT
+    def_bool $(shields_list_contains,ergodone_left)
+
+config SHIELD_ERGODONE_RIGHT
+    def_bool $(shields_list_contains,ergodone_right)
