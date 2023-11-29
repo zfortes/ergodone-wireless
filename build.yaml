@@ -14,7 +14,7 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: ergodone
+    shield: ergodone_left
   # - board: nice_nano_v2
   #   shield: ergodone_right
 
