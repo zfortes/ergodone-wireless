@@ -1,6 +1,10 @@
 #include "ergodone.dtsi"
 
-kscan0: kscan {
+&default_transform {
+	col-offset = <1>;
+};
+
+&kscan0: kscan {
     compatible = "zmk,kscan-gpio-matrix";
     label = "KSCAN";
     diode-direction = "row2col";
