@@ -1,0 +1,23 @@
+if SHIELD_ERGODONE_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Ergodone"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_ERGODONE_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Ergodone Right"
+
+endif
+
+if SHIELD_ERGODONE_LEFT || SHIELD_ERGODONE_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
